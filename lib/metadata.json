@@ -1,11 +1,27 @@
 {
   "vaultName": "Coffre Romain",
-  "lastExport": 1732533611541,
+  "lastExport": 1732543731209,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon highlightr-rounded",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
+    "Fiches pratiques/JavaScript/Boucle for JS.md",
+    "Fiches pratiques/JavaScript/Boucle JS.md",
+    "Fiches pratiques/JavaScript/Boucle While JS.md",
+    "Fiches pratiques/JavaScript/Callbacks JS.md",
+    "Fiches pratiques/JavaScript/Chaine de caractères JS.md",
+    "Fiches pratiques/JavaScript/Déclaration d'une variable JS.md",
+    "Fiches pratiques/JavaScript/fonction JS.md",
+    "Fiches pratiques/JavaScript/For ... in JS.md",
+    "Fiches pratiques/JavaScript/For ... of JS.md",
+    "Fiches pratiques/JavaScript/JavaScript.md",
+    "Fiches pratiques/JavaScript/Mot clé JS.md",
+    "Fiches pratiques/JavaScript/Objet JS.md",
+    "Fiches pratiques/JavaScript/Opérateurs JS.md",
+    "Fiches pratiques/JavaScript/Sucre syntaxique.md",
+    "Fiches pratiques/JavaScript/Tableau JS.md",
+    "Fiches pratiques/JavaScript/Types de variables JS.md",
     "Fiches pratiques/Word/Créer une table des matières Word.md",
     "Fiches pratiques/Word/Gérer les styles dans Word.md",
     "Fiches pratiques/Word/Liste à plusieurs niveaux Word.md",
@@ -13,6 +29,7 @@
     "Fiches pratiques/Word/Pied de page Word.md",
     "Fiches pratiques/Word/Saut de page et saut de section dans Word.md",
     "Fiches pratiques/Word/Word.md",
+    "Index.md",
     "lib/media/table1.png",
     "lib/media/table2.png",
     "lib/media/table3.png",
@@ -59,7 +76,6 @@
     "lib/styles/other-plugins.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css"
   ],
   "mainDependencies": [
@@ -92,12 +108,107 @@
     "lib/styles/other-plugins.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
+    "Fiches pratiques/JavaScript/Boucle for JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 498,
+      "exportedPath": "fiches-pratiques/javascript/boucle-for-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Boucle JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 37,
+      "exportedPath": "fiches-pratiques/javascript/boucle-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Boucle While JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 359,
+      "exportedPath": "fiches-pratiques/javascript/boucle-while-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Callbacks JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 441,
+      "exportedPath": "fiches-pratiques/javascript/callbacks-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Chaine de caractères JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 636,
+      "exportedPath": "fiches-pratiques/javascript/chaine-de-caractères-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Déclaration d'une variable JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 200,
+      "exportedPath": "fiches-pratiques/javascript/déclaration-d'une-variable-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/fonction JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 308,
+      "exportedPath": "fiches-pratiques/javascript/fonction-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/For ... in JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 154,
+      "exportedPath": "fiches-pratiques/javascript/for-...-in-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/For ... of JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 156,
+      "exportedPath": "fiches-pratiques/javascript/for-...-of-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/JavaScript.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 4,
+      "exportedPath": "fiches-pratiques/javascript/javascript.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Mot clé JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 272,
+      "exportedPath": "fiches-pratiques/javascript/mot-clé-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Objet JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 214,
+      "exportedPath": "fiches-pratiques/javascript/objet-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Opérateurs JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 215,
+      "exportedPath": "fiches-pratiques/javascript/opérateurs-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Sucre syntaxique.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 156,
+      "exportedPath": "fiches-pratiques/javascript/sucre-syntaxique.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Tableau JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 63,
+      "exportedPath": "fiches-pratiques/javascript/tableau-js.html",
+      "dependencies": []
+    },
+    "Fiches pratiques/JavaScript/Types de variables JS.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 294,
+      "exportedPath": "fiches-pratiques/javascript/types-de-variables-js.html",
+      "dependencies": []
+    },
     "Fiches pratiques/Word/Créer une table des matières Word.md": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 1950,
       "exportedPath": "fiches-pratiques/word/créer-une-table-des-matières-word.html",
       "dependencies": [
@@ -108,7 +219,7 @@
       ]
     },
     "Fiches pratiques/Word/Gérer les styles dans Word.md": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 2550,
       "exportedPath": "fiches-pratiques/word/gérer-les-styles-dans-word.html",
       "dependencies": [
@@ -120,7 +231,7 @@
       ]
     },
     "Fiches pratiques/Word/Liste à plusieurs niveaux Word.md": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 1991,
       "exportedPath": "fiches-pratiques/word/liste-à-plusieurs-niveaux-word.html",
       "dependencies": [
@@ -131,7 +242,7 @@
       ]
     },
     "Fiches pratiques/Word/Numérotation de page Word.md": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 791,
       "exportedPath": "fiches-pratiques/word/numérotation-de-page-word.html",
       "dependencies": [
@@ -139,7 +250,7 @@
       ]
     },
     "Fiches pratiques/Word/Pied de page Word.md": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 622,
       "exportedPath": "fiches-pratiques/word/pied-de-page-word.html",
       "dependencies": [
@@ -147,7 +258,7 @@
       ]
     },
     "Fiches pratiques/Word/Saut de page et saut de section dans Word.md": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 1202,
       "exportedPath": "fiches-pratiques/word/saut-de-page-et-saut-de-section-dans-word.html",
       "dependencies": [
@@ -157,295 +268,295 @@
       ]
     },
     "Fiches pratiques/Word/Word.md": {
-      "modifiedTime": 1732533611541,
-      "sourceSize": 226,
+      "modifiedTime": 1732543731209,
+      "sourceSize": 219,
       "exportedPath": "fiches-pratiques/word/word.html",
       "dependencies": []
     },
+    "Index.md": {
+      "modifiedTime": 1732543731209,
+      "sourceSize": 12,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
     "lib/media/table1.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 9022,
       "exportedPath": "lib/media/table1.png",
       "dependencies": []
     },
     "lib/media/table2.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 10357,
       "exportedPath": "lib/media/table2.png",
       "dependencies": []
     },
     "lib/media/table3.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 10024,
       "exportedPath": "lib/media/table3.png",
       "dependencies": []
     },
     "lib/media/table4.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 2456,
       "exportedPath": "lib/media/table4.png",
       "dependencies": []
     },
     "lib/media/style1.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 7016,
       "exportedPath": "lib/media/style1.png",
       "dependencies": []
     },
     "lib/media/style2.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 9724,
       "exportedPath": "lib/media/style2.png",
       "dependencies": []
     },
     "lib/media/style3.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 3004,
       "exportedPath": "lib/media/style3.png",
       "dependencies": []
     },
     "lib/media/style4.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 4247,
       "exportedPath": "lib/media/style4.png",
       "dependencies": []
     },
     "lib/media/style5.svg": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 16234,
       "exportedPath": "lib/media/style5.svg",
       "dependencies": []
     },
     "lib/media/listeniveaux1.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 9829,
       "exportedPath": "lib/media/listeniveaux1.png",
       "dependencies": []
     },
     "lib/media/listeniveaux2.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 2053,
       "exportedPath": "lib/media/listeniveaux2.png",
       "dependencies": []
     },
     "lib/media/listeniveaux3.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 15387,
       "exportedPath": "lib/media/listeniveaux3.png",
       "dependencies": []
     },
     "lib/media/listeniveaux4.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 11090,
       "exportedPath": "lib/media/listeniveaux4.png",
       "dependencies": []
     },
     "lib/media/pied-de-page1.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 1968,
       "exportedPath": "lib/media/pied-de-page1.png",
       "dependencies": []
     },
     "lib/media/saut-de-page1.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 10011,
       "exportedPath": "lib/media/saut-de-page1.png",
       "dependencies": []
     },
     "lib/media/saut-de-page2.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 11186,
       "exportedPath": "lib/media/saut-de-page2.png",
       "dependencies": []
     },
     "lib/media/saut-de-page3.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 16818,
       "exportedPath": "lib/media/saut-de-page3.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1732533611541,
-      "sourceSize": 4491,
+      "modifiedTime": 1732543731209,
+      "sourceSize": 11003,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1732533611541,
-      "sourceSize": 885,
+      "modifiedTime": 1732543731209,
+      "sourceSize": 2522,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 131118,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 16404,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 228400,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 311,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
-    "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1732533611541,
-      "sourceSize": 3162,
-      "exportedPath": "lib/styles/supported-plugins.css",
-      "dependencies": []
-    },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1732533611541,
+      "modifiedTime": 1732543731209,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []

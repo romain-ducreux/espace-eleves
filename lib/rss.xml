@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Coffre Romain]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Coffre Romain</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 25 Nov 2024 11:20:13 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 25 Nov 2024 11:20:11 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Créer une table des matières Word]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Coffre Romain]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Coffre Romain</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 25 Nov 2024 14:08:55 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 25 Nov 2024 14:08:51 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Boucle for JS]]></title><description><![CDATA[ 
+ <br>La <a data-tooltip-position="top" aria-label="Boucle JS" data-href="Boucle JS" href="fiches-pratiques\javascript\boucle-js.html" class="internal-link" target="_self" rel="noopener nofollow">boucle</a> for est liée au <a data-href="Mot clé JS" href="fiches-pratiques\javascript\mot-clé-js.html" class="internal-link" target="_self" rel="noopener nofollow">Mot clé JS</a> for<br>for (i = 0; i &lt; 5; i++){
+console.log(i)
+}
+/* résultat attendu :
+0
+1
+2
+3
+4 */
+<br>Le premier argument de la boucle for est la valeur initiale de la variable liée à la boucle.<br>
+Le deuxième argument correspond à la condition qui va faire que la boucle va s'arrêter.<br>
+Le troisième argument va définir l'application d'une nouvelle condition en fin de boucle.]]></description><link>fiches-pratiques\javascript\boucle-for-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Boucle for JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[Boucle JS]]></title><description><![CDATA[ 
+ <br><a data-href="Boucle for JS" href="fiches-pratiques\javascript\boucle-for-js.html" class="internal-link" target="_self" rel="noopener nofollow">Boucle for JS</a><br>
+<a data-href="Boucle While JS" href="fiches-pratiques\javascript\boucle-while-js.html" class="internal-link" target="_self" rel="noopener nofollow">Boucle While JS</a>]]></description><link>fiches-pratiques\javascript\boucle-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Boucle JS.md</guid><pubDate>Wed, 03 Apr 2024 07:17:50 GMT</pubDate></item><item><title><![CDATA[Boucle While JS]]></title><description><![CDATA[ 
+ <br>Une boucle avec le mot clé <a data-tooltip-position="top" aria-label="Mot clé JS" data-href="Mot clé JS" href="fiches-pratiques\javascript\mot-clé-js.html" class="internal-link" target="_self" rel="noopener nofollow">While</a> permet d'exécuter un code autant de fois que la boucle est respectée.<br>while (condition){
+// code exécuté
+}
+<br>Il est possible de noter en premier lieu le code précédé du mot clé <a data-href="Do" href="Do" class="internal-link" target="_self" rel="noopener nofollow">Do</a> puis de conclure par While comme ceci :<br>do {
+//code exécuté
+} while (condition)
+]]></description><link>fiches-pratiques\javascript\boucle-while-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Boucle While JS.md</guid><pubDate>Wed, 03 Apr 2024 07:21:55 GMT</pubDate></item><item><title><![CDATA[Callbacks JS]]></title><description><![CDATA[ 
+ <br>Un Callback en Javascript est une <a data-tooltip-position="top" aria-label="fonction JS" data-href="fonction JS" href="fiches-pratiques\javascript\fonction-js.html" class="internal-link" target="_self" rel="noopener nofollow">fonction</a> passée en argument d'une autre fonction.<br>Elle permet le fonctionnement asynchrone du programme : partons du principe que la fonction A mette 10 secondes à finir de s'exécuter alors que la fonction B s'exécute instantanément, si la fonction B est placée après la A, elle sera malheureusement exécutée plus tard.]]></description><link>fiches-pratiques\javascript\callbacks-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Callbacks JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[Chaine de caractères JS]]></title><description><![CDATA[ 
+ <br><br>Les chaines de caractères en JavaScript sont <a data-href="immutables" href="immutables" class="internal-link" target="_self" rel="noopener nofollow">immutables</a>. Cela signifie qu'une fois un variable déclarée en temps que chaine de caractères, on ne peut pas modifier un de ses éléments :<br>let mot = "tas"
+mot[0] = 'c'
+console.log(mot) // 'tas'
+<br>Note : ce n'est pas le cas pour les <a data-href="Tableau JS" href="fiches-pratiques\javascript\tableau-js.html" class="internal-link" target="_self" rel="noopener nofollow">Tableau JS</a>.<br><br>repeat()&nbsp; :<br>
+Construit et renvoie une nouvelle chaine de caractères qui contient le nombre de copie demandée de la chaine de caractères sur laquelle la méthode a été appelée, concaténées les unes aux autres.]]></description><link>fiches-pratiques\javascript\chaine-de-caractères-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Chaine de caractères JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[Déclaration d'une variable JS]]></title><description><![CDATA[ 
+ <br>Une variable en JavaScript peut être déclarée principalement avec les trois <a data-tooltip-position="top" aria-label="Mot clé JS" data-href="Mot clé JS" href="fiches-pratiques\javascript\mot-clé-js.html" class="internal-link" target="_self" rel="noopener nofollow">mots clés</a> suivants :<br>
+<br>const
+<br>let
+<br>var
+]]></description><link>fiches-pratiques\javascript\déclaration-d&apos;une-variable-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Déclaration d&apos;une variable JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[fonction JS]]></title><description><![CDATA[ 
+ <br><br>const twoFer = (who = 'you') =&gt; {
+    return `One for ${who}, one for me.`; 
+}
+<br>Dans cette exemple, si l'argument "who" n'est pas renseigné, il prendra la valeur 'you' sinon celle qu'on a attribué.]]></description><link>fiches-pratiques\javascript\fonction-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/fonction JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[For ... in JS]]></title><description><![CDATA[ 
+ <br>for ... in est un <a data-href="Mot clé JS" href="fiches-pratiques\javascript\mot-clé-js.html" class="internal-link" target="_self" rel="noopener nofollow">Mot clé JS</a> qui permet de lister chaque itération d'un <a data-href="Objet JS" href="fiches-pratiques\javascript\objet-js.html" class="internal-link" target="_self" rel="noopener nofollow">Objet JS</a>]]></description><link>fiches-pratiques\javascript\for-...-in-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/For ... in JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[For ... of JS]]></title><description><![CDATA[ 
+ <br>for ... of est un <a data-href="Mot clé JS" href="fiches-pratiques\javascript\mot-clé-js.html" class="internal-link" target="_self" rel="noopener nofollow">Mot clé JS</a> qui permet de lister chaque itération d'un <a data-href="Tableau JS" href="fiches-pratiques\javascript\tableau-js.html" class="internal-link" target="_self" rel="noopener nofollow">Tableau JS</a>]]></description><link>fiches-pratiques\javascript\for-...-of-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/For ... of JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[JavaScript]]></title><description><![CDATA[<a class="tag" href="?query=tag:MOC" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#MOC</a> 
+ <br><a href=".?query=tag:MOC" class="tag" target="_blank" rel="noopener nofollow">#MOC</a>]]></description><link>fiches-pratiques\javascript\javascript.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/JavaScript.md</guid><pubDate>Tue, 26 Mar 2024 11:14:19 GMT</pubDate></item><item><title><![CDATA[Mot clé JS]]></title><description><![CDATA[ 
+ <br>
+<br><a data-tooltip-position="top" aria-label="Déclaration d'une variable JS" data-href="Déclaration d'une variable JS" href="fiches-pratiques\javascript\déclaration-d'une-variable-js.html" class="internal-link" target="_self" rel="noopener nofollow">const</a>
+<br><a data-tooltip-position="top" aria-label="Boucle for JS" data-href="Boucle for JS" href="fiches-pratiques\javascript\boucle-for-js.html" class="internal-link" target="_self" rel="noopener nofollow">for</a>
+<br><a data-tooltip-position="top" aria-label="For ... in JS" data-href="For ... in JS" href="fiches-pratiques\javascript\for-...-in-js.html" class="internal-link" target="_self" rel="noopener nofollow">for ... in</a>
+<br><a data-tooltip-position="top" aria-label="Déclaration d'une variable JS" data-href="Déclaration d'une variable JS" href="fiches-pratiques\javascript\déclaration-d'une-variable-js.html" class="internal-link" target="_self" rel="noopener nofollow">let</a>
+<br><a data-tooltip-position="top" aria-label="Déclaration d'une variable JS" data-href="Déclaration d'une variable JS" href="fiches-pratiques\javascript\déclaration-d'une-variable-js.html" class="internal-link" target="_self" rel="noopener nofollow">var</a>
+<br><a data-tooltip-position="top" aria-label="Boucle While JS" data-href="Boucle While JS" href="fiches-pratiques\javascript\boucle-while-js.html" class="internal-link" target="_self" rel="noopener nofollow">While</a>
+<br>
+]]></description><link>fiches-pratiques\javascript\mot-clé-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Mot clé JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[Objet JS]]></title><description><![CDATA[ 
+ <br>const id = {
+nom : 'dupont',
+prénom : 'rémi'
+}
+console.log(id.nom)
+// 'dupont'
+<br>Une méthode est une fonction associée à un objet.]]></description><link>fiches-pratiques\javascript\objet-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Objet JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[Opérateurs JS]]></title><description><![CDATA[ 
+ <br>Pour déterminer si une variable est "null", "undefined" ou égale à 0, il suffit d'appliquer un "!" devant le nom de la variable. Cela renverra "true".]]></description><link>fiches-pratiques\javascript\opérateurs-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Opérateurs JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[Sucre syntaxique]]></title><description><![CDATA[ 
+ <br><br>let i = 1
+i++
+i--
+i += 5
+i %= 2
+<br>]]></description><link>fiches-pratiques\javascript\sucre-syntaxique.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Sucre syntaxique.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[Tableau JS]]></title><description><![CDATA[ 
+ ]]></description><link>fiches-pratiques\javascript\tableau-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Tableau JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[Types de variables JS]]></title><description><![CDATA[ 
+ <br><br>Une <a data-tooltip-position="top" aria-label="Déclaration d'une variable JS" data-href="Déclaration d'une variable JS" href="fiches-pratiques\javascript\déclaration-d'une-variable-js.html" class="internal-link" target="_self" rel="noopener nofollow">variable</a> en JavaScript peut stocker un nombre. Qu'importe son type, il sera déclaré de la même façon, par exemple :<br>const a = 1
+const b = -1
+const c = 0.5
+]]></description><link>fiches-pratiques\javascript\types-de-variables-js.html</link><guid isPermaLink="false">Fiches pratiques/JavaScript/Types de variables JS.md</guid><pubDate>Mon, 18 Nov 2024 13:33:04 GMT</pubDate></item><item><title><![CDATA[Créer une table des matières Word]]></title><description><![CDATA[ 
  <br>A quoi ça sert ?
 Créer une table des matières permet de définir pour chaque titre et sous-titre, la page du document correspondante. Ce sommaire peut être actualisé à tout moment si nous rajoutons d'autres titres et/ou pages.
 <br><br><br>
@@ -85,9 +152,10 @@ Effectuer un saut de page avec saut de section permet en plus de cela de créer 
 <br>Placez votre curseur clignotant au bout à droite de votre texte.
 <br>Allez dans l'onglet "Mise en page" (1) puis "Sauts de page" (2).<img alt="saut de page2.png" src="lib\media\saut-de-page2.png">
 <br>Choisissez l'option "Page suivante".<img alt="saut de page3.png" src="lib\media\saut-de-page3.png">
-]]></description><link>fiches-pratiques\word\saut-de-page-et-saut-de-section-dans-word.html</link><guid isPermaLink="false">Fiches pratiques/Word/Saut de page et saut de section dans Word.md</guid><pubDate>Mon, 25 Nov 2024 10:19:45 GMT</pubDate><enclosure url="lib\media\saut-de-page1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\saut-de-page1.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Word]]></title><description><![CDATA[<a class="tag" href="?query=tag:MOC" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#MOC</a> 
- <br><a href=".?query=tag:MOC" class="tag" target="_blank" rel="noopener nofollow">#MOC</a> <br><br><br><a data-href="Gérer les styles dans Word" href="fiches-pratiques\word\gérer-les-styles-dans-word.html" class="internal-link" target="_self" rel="noopener nofollow">Gérer les styles dans Word</a><br>
+]]></description><link>fiches-pratiques\word\saut-de-page-et-saut-de-section-dans-word.html</link><guid isPermaLink="false">Fiches pratiques/Word/Saut de page et saut de section dans Word.md</guid><pubDate>Mon, 25 Nov 2024 10:19:45 GMT</pubDate><enclosure url="lib\media\saut-de-page1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\saut-de-page1.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Word]]></title><description><![CDATA[ 
+ <br><br><br><a data-href="Gérer les styles dans Word" href="fiches-pratiques\word\gérer-les-styles-dans-word.html" class="internal-link" target="_self" rel="noopener nofollow">Gérer les styles dans Word</a><br>
 <a data-href="Liste à plusieurs niveaux Word" href="fiches-pratiques\word\liste-à-plusieurs-niveaux-word.html" class="internal-link" target="_self" rel="noopener nofollow">Liste à plusieurs niveaux Word</a><br>
 <a data-href="Numérotation de page Word" href="fiches-pratiques\word\numérotation-de-page-word.html" class="internal-link" target="_self" rel="noopener nofollow">Numérotation de page Word</a><br>
 <a data-href="Pied de page Word" href="fiches-pratiques\word\pied-de-page-word.html" class="internal-link" target="_self" rel="noopener nofollow">Pied de page Word</a><br>
-<a data-href="Saut de page et saut de section dans Word" href="fiches-pratiques\word\saut-de-page-et-saut-de-section-dans-word.html" class="internal-link" target="_self" rel="noopener nofollow">Saut de page et saut de section dans Word</a>]]></description><link>fiches-pratiques\word\word.html</link><guid isPermaLink="false">Fiches pratiques/Word/Word.md</guid><pubDate>Mon, 25 Nov 2024 09:48:57 GMT</pubDate></item></channel></rss>
+<a data-href="Saut de page et saut de section dans Word" href="fiches-pratiques\word\saut-de-page-et-saut-de-section-dans-word.html" class="internal-link" target="_self" rel="noopener nofollow">Saut de page et saut de section dans Word</a>]]></description><link>fiches-pratiques\word\word.html</link><guid isPermaLink="false">Fiches pratiques/Word/Word.md</guid><pubDate>Mon, 25 Nov 2024 11:31:09 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br>Test d'index]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 25 Nov 2024 14:07:59 GMT</pubDate></item></channel></rss>
